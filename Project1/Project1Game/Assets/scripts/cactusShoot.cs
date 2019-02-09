@@ -6,6 +6,7 @@ public class cactusShoot : MonoBehaviour
 {
     public Transform enemyFirePoint;
     public GameObject enemyBulletPrefab;
+    public float waitEnemy = 3f;
 
     void Update()
     {
@@ -30,6 +31,6 @@ public class cactusShoot : MonoBehaviour
 
     IEnumerator waitTime()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSecondsRealtime(waitEnemy);
     }
 }

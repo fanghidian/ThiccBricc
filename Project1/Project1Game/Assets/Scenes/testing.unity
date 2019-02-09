@@ -537,6 +537,7 @@ MonoBehaviour:
   enemyFirePoint: {fileID: 1157157340}
   enemyBulletPrefab: {fileID: 7781650062728002922, guid: 6c1576fd08c7d014ab44bf44f0e6353f,
     type: 3}
+  waitEnemy: 3
 --- !u!50 &992997372
 Rigidbody2D:
   serializedVersion: 4
@@ -798,7 +799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187090128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2036295, y: -2.131661, z: -10}
+  m_LocalPosition: {x: -7.335431, y: -2.131661, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 927087167}
