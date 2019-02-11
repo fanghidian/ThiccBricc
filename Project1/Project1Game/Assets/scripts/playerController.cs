@@ -73,5 +73,28 @@ public class playerController : MonoBehaviour {
         transform.Rotate(0f, 180f, 0f);
 
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "bullet")
+        {
+            curHealth -= other.GetComponent<BulletEnemy>().damage;
+            Destroy(other.gameObject);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.transform.tag == "movingPlatform")
+        {
+            transform.parent = other.transform;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.transform.tag == "movingPlatform")
+        {
+            transform.parent = null;
+        }
+    }
 }
 

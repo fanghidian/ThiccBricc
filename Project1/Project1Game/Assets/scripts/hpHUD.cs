@@ -14,7 +14,6 @@ public class hpHUD : MonoBehaviour
         health = GameObject.FindGameObjectWithTag("Player").GetComponent<playerController>();
     }
 
-
     void Update()
     {
         hpImage.sprite = hpSprites[health.curHealth];

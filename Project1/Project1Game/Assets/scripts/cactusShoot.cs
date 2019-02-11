@@ -6,14 +6,13 @@ public class cactusShoot : MonoBehaviour
 {
     public Transform enemyFirePoint;
     public GameObject enemyBulletPrefab;
-    public float waitEnemy = 3f;
+    public int waitEnemy = 1;
+    private bool shoot;
 
     void Update()
     {
-        wide();
-        StartCoroutine(waitTime());
-        narrow();
-        StartCoroutine(waitTime());
+        if (!shoot)
+            StartCoroutine("waitTime");
     }
 
     void wide()
@@ -31,6 +30,11 @@ public class cactusShoot : MonoBehaviour
 
     IEnumerator waitTime()
     {
-        yield return new WaitForSecondsRealtime(waitEnemy);
+        shoot = true;
+        yield return new WaitForSeconds(waitEnemy);
+        wide();
+        yield return new WaitForSeconds(waitEnemy);
+        narrow();
+        shoot = false;
     }
 }

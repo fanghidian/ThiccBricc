@@ -6,10 +6,6 @@ public class Ladder : MonoBehaviour
 {
     public float speed = 5;
 
-    void Update()
-    {
-
-    }
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Player" && Input.GetKey(KeyCode.UpArrow))

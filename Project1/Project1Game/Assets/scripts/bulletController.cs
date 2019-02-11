@@ -6,7 +6,8 @@ public class bulletController : MonoBehaviour
 {
     public float speed = 20f;
     Rigidbody2D rb;
-    // Start is called before the first frame update
+    public int damage = 1;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
