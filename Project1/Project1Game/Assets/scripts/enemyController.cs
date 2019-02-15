@@ -25,4 +25,19 @@ public class enemyController : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.transform.tag == "movingPlatform")
+        {
+            transform.parent = other.transform;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.transform.tag == "movingPlatform")
+        {
+            transform.parent = null;
+        }
+    }
 }
