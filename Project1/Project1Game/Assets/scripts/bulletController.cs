@@ -16,6 +16,9 @@ public class bulletController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
+        if (collision.gameObject.tag == "enemy" || collision.gameObject.tag == "ground")
+        {
+            Destroy(gameObject);
+        }
     }
 }

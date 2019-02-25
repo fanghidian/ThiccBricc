@@ -298,7 +298,7 @@ Transform:
   - {fileID: 339495155}
   - {fileID: 2092145765}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &54532461
 GameObject:
@@ -23384,6 +23384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LobberBob (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4056461919276396622, guid: b91d8203bbbb38545b47e5b54fc7d15d,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4056461919276396626, guid: b91d8203bbbb38545b47e5b54fc7d15d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23944,7 +23949,7 @@ Transform:
   - {fileID: 449101914}
   - {fileID: 932896675}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &449101914 stripped
 Transform:
@@ -23963,6 +23968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CactusBob
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034416524155563227, guid: 67ba5496987ecb54a8c49c33071f760b,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3034416524155563230, guid: 67ba5496987ecb54a8c49c33071f760b,
         type: 3}
@@ -75771,7 +75781,7 @@ Tilemap:
   - first: {x: -4, y: 3, z: 0}
     second:
       m_TileIndex: 5
-      m_TileSpriteIndex: 17
+      m_TileSpriteIndex: 21
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -76581,7 +76591,7 @@ Tilemap:
   - first: {x: 59, y: 13, z: 0}
     second:
       m_TileIndex: 16
-      m_TileSpriteIndex: 16
+      m_TileSpriteIndex: 17
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -76693,18 +76703,18 @@ Tilemap:
     m_Data: {fileID: 21300008, guid: 9dc18d9dbefddc44ebab3f88ec5da09c, type: 3}
   - m_RefCount: 14
     m_Data: {fileID: 21300006, guid: a5bb34aa5cc0e694fb21117e16dd74b5, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 21300002, guid: a5bb34aa5cc0e694fb21117e16dd74b5, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 21300002, guid: acc5d9735413db84daf23370041fd5e0, type: 3}
   - m_RefCount: 24
     m_Data: {fileID: 21300004, guid: 53034c021f827d645aefda9c7c9a93e2, type: 3}
   - m_RefCount: 11
     m_Data: {fileID: 21300006, guid: 53034c021f827d645aefda9c7c9a93e2, type: 3}
   - m_RefCount: 11
     m_Data: {fileID: 21300002, guid: 53034c021f827d645aefda9c7c9a93e2, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300002, guid: acc5d9735413db84daf23370041fd5e0, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 5813
     m_Data:
@@ -76773,6 +76783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LobberBob (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056461919276396622, guid: b91d8203bbbb38545b47e5b54fc7d15d,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4056461919276396626, guid: b91d8203bbbb38545b47e5b54fc7d15d,
         type: 3}
@@ -76874,6 +76889,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LobberBob
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056461919276396622, guid: b91d8203bbbb38545b47e5b54fc7d15d,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4056461919276396626, guid: b91d8203bbbb38545b47e5b54fc7d15d,
         type: 3}
@@ -77451,6 +77471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LobberBob (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4056461919276396622, guid: b91d8203bbbb38545b47e5b54fc7d15d,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4056461919276396626, guid: b91d8203bbbb38545b47e5b54fc7d15d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77599,6 +77624,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LobberBob (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056461919276396622, guid: b91d8203bbbb38545b47e5b54fc7d15d,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4056461919276396626, guid: b91d8203bbbb38545b47e5b54fc7d15d,
         type: 3}
@@ -77903,6 +77933,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LobberBob (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4056461919276396622, guid: b91d8203bbbb38545b47e5b54fc7d15d,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4056461919276396626, guid: b91d8203bbbb38545b47e5b54fc7d15d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -78189,6 +78224,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LobberBob (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4056461919276396622, guid: b91d8203bbbb38545b47e5b54fc7d15d,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4056461919276396626, guid: b91d8203bbbb38545b47e5b54fc7d15d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -78386,6 +78426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CactusBob (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034416524155563227, guid: 67ba5496987ecb54a8c49c33071f760b,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3034416524155563230, guid: 67ba5496987ecb54a8c49c33071f760b,
         type: 3}
